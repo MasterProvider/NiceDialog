@@ -7,7 +7,7 @@ Nice Dialog is a custom design dialog for netbeans
 
 
 ## Setup
-Add  NiceDialog.jar to your Libraries
+Add  NiceDialog.jar to your Libraries from dist folder
 
 ## Usage
 
