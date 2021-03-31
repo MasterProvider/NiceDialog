@@ -49,7 +49,7 @@ Add  NiceDialog.jar to your Libraries
                })
                .display();
                
-    Bind the listener to cancel button
+   Bind the listener to cancel button
     
      NiceDialog niceDialog =  new NiceDialog(ERROR_INFO);
                niceDialog.setTitleText("Cancel me");
