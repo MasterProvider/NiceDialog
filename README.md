@@ -15,14 +15,14 @@ Add  NiceDialog.jar to your Libraries
               
  A success display message:
 
-  NiceDialog niceDialog =  new NiceDialog(SUCCESS_TYPE);
+    NiceDialog niceDialog =  new NiceDialog(SUCCESS_TYPE);
                niceDialog.setTitleText("SUCCESS");
                niceDialog.setDescriptionText("Nice Dialog a custom dialog for netbeans");
                niceDialog.display();
                
  A warning display message:
  
-  NiceDialog niceDialog =  new NiceDialog(WARNING_TYPE);
+    NiceDialog niceDialog =  new NiceDialog(WARNING_TYPE);
                niceDialog.setTitleText("WARNING");
                niceDialog.setDescriptionText("Nice Dialog a custom dialog for netbeans");
                niceDialog.display();
@@ -64,7 +64,7 @@ Add  NiceDialog.jar to your Libraries
                })
                .display();
               
-       ## License
+   ## License
        MIT License
 
         Copyright (c) 2020 Federico Patricio Jr.
