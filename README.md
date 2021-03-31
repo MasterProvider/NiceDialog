@@ -42,7 +42,6 @@ Add  NiceDialog.jar to your Libraries
                niceDialog.setConfirmListener(new NiceDialog.OnActionListener() {
                       @Override
                       public void actionPerformed(NiceDialog nDialog) {
-                              System.out.print("sample click");
                               niceDialog.changeAlertType(SUCCESS_TYPE);
                               
                       }
@@ -57,7 +56,6 @@ Add  NiceDialog.jar to your Libraries
                niceDialog.setCancelListener(new NiceDialog.OnActionListener() {
                       @Override
                       public void actionPerformed(NiceDialog nDialog) {
-                              System.out.print("sample click");
                               niceDialog.dismiss();
                               
                       }
