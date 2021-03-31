@@ -8,7 +8,7 @@ Add  NiceDialog.jar to your Libraries
 
  A basic display message:
 
- NiceDialog niceDialog =  new NiceDialog();
+    NiceDialog niceDialog =  new NiceDialog();
                niceDialog.setTitleText("INFO");
                niceDialog.setDescriptionText("Nice Dialog a custom dialog for netbeans"); 
                niceDialog.display();
