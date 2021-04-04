@@ -15,7 +15,6 @@ public class NiceDialog extends JPanel implements ActionListener {
     private String mTitleText;
     private String mDescritionText;
     private String mConfirmText;
-    private ActionEvent mActionEvent;
     public static final int INFO_TYPE = 0;
     public static final int ERROR_TYPE = 1;
     public static final int SUCCESS_TYPE = 2;
@@ -64,7 +63,7 @@ public class NiceDialog extends JPanel implements ActionListener {
                   
                     break;
                 case SUCCESS_TYPE:
-                     bannerLayout.setBackground(new Color(51,204,0));
+                     bannerLayout.setBackground(new Color(0,153,0));
                      icon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/success_icon.png")));
                  
                     break;
