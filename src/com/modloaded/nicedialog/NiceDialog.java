@@ -1,22 +1,10 @@
 package com.modloaded.nicedialog;
 
-import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.Dialog;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
-import java.awt.Toolkit;
-import java.awt.Window;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import javax.swing.JButton;
 import javax.swing.JDialog;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-import javax.swing.JTextField;
-import javax.swing.SwingUtilities;
 
 /**
  *
@@ -46,20 +34,6 @@ public class NiceDialog extends JPanel implements ActionListener {
         this(INFO_TYPE);
         
        
-    }
-    
-     public static JPanel newPanel(JPanel labelText) {
-        JPanel pane = new JPanel(new BorderLayout());
-        pane.add(labelText);
-        
-        return pane;
-    }
-     
-     
-     private static JLabel newLabel(String label) {
-        JLabel l = new JLabel(label);
-        l.setFont(l.getFont().deriveFont(24.0f));
-        return l;
     }
     
     public NiceDialog(int dialogType){
